@@ -1,0 +1,16 @@
+/*-------- font-family Popins ---------*/
+
+@font-face
+{
+    font-family: Poppins;
+    src: url('../fonts/Poppins/Poppins-Black.ttf');
+}
+
+
+/*-------- font-family Pushster---------*/
+
+@font-face
+{
+    font-family: Pushster;
+    src: url('../fonts/Pushster/Pushster-Regular.ttf');
+}

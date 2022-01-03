@@ -1,14 +1,37 @@
-   body
+@import url(../css/fonts.css);
+  
+  body
 {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     
 }
+/*---------------- Colors fonts--------------------------*/
+:root
+{
+    --text-purple: rgb(27, 9, 43);
+    --light-purple: rgb(190, 163, 235);
+
+/*---------------- Colors fonts--------------------------*/
+
+    --space: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+
+/*---------------- Gradient Color--------------------------*/
+
+}
+
+
+
+/*---------------- Gradient Color--------------------------*/
+
+
+
 /*-------------------Global Classes------------------------*/
 a
 {
     text-decoration: none;
+    color: var(--text-purple);
 }
 
 .flex-row
@@ -51,17 +74,33 @@ ul
     padding: 10px 10px;
     font-size: 20px;
     position: relative;
+    font-family: Poppins;
 }
 .nav-brand a
 {
-    color: rgb(27, 9, 43);
     font-size: 35px;
     padding: 50px 0;
+    font-family: Poppins;
 }
+
+
+.nav .list .item-list:hover
+{
+    background-color: rgb(190, 163, 235);
+}
+
 .nav .social
 {
-    
+    padding: 6px 0;
 }
 
+.nav .social i
+{
+    padding: 10px;
+}
 
+.nav .social i:hover
+{
+    color:var(--light-purple)
+}
 /*-------------------Navigation----------------------------*/
