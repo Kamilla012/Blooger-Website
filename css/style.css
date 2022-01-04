@@ -10,8 +10,10 @@
 /*---------------- Colors fonts--------------------------*/
 :root
 {
-    --text-purple: rgb(27, 9, 43);
+    
+    --text-purple: rgb(5, 11, 27);
     --light-purple: rgb(190, 163, 235);
+    
 
 /*---------------- Colors fonts--------------------------*/
 
@@ -31,7 +33,7 @@
 a
 {
     text-decoration: none;
-    color: var(--text-purple);
+    color: white;
 }
 
 .flex-row
@@ -45,6 +47,29 @@ ul
 {
     list-style-type: none;
 }
+
+h1
+{
+    font-family: Poppins;
+    font-size: 60px;
+}
+
+h3
+{
+    font-family: Pushster;
+    font-size: 30px;
+}
+
+button.btn
+{
+    border: 2px solid;
+    border-radius: 30px;
+    padding: 15px 50px;
+    font-size: 18px;
+    font-family: Poppins;
+    color: white;
+    cursor: pointer;
+}
 /*-------------------Global Classes------------------------*/
 
 /*-------------------Navigation----------------------------*/
@@ -53,13 +78,42 @@ ul
     background-color: white;
     padding: 0 25px;
     height: 0;
-    min-height: 20vh;
+    min-height: 80px;
     overflow-x: hidden;
+    transition:height 1s ease-out;
+    background:var(--text-purple);
+    
 }
 
 .nav .nav-menu
 {
     justify-content: space-between;
+
+}
+
+.nav .toggle-collapse
+{
+    position: absolute;
+    top: 0%;
+    width: 90%;
+    cursor: pointer;
+}
+
+.nav .toggle-collapse .toggle-icons
+{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0;
+}
+.nav .toggle-collapse .toggle-icons i
+{
+    font-size: 20px;
+    color: rgb(27, 9, 43);
+}
+
+.collapse
+{
+    height: 20rem;
 }
 
 .nav .list
@@ -67,6 +121,7 @@ ul
     
     display: flex;
     margin: 0;
+    margin-top: 15px;
 }
 
 .nav .list .item-list
@@ -76,10 +131,16 @@ ul
     position: relative;
     font-family: Poppins;
 }
+
+.nav-brand 
+{
+    margin-top: 10px;
+}
 .nav-brand a
 {
     font-size: 35px;
     padding: 50px 0;
+
     font-family: Poppins;
 }
 
@@ -103,4 +164,77 @@ ul
 {
     color:var(--light-purple)
 }
+
+
 /*-------------------Navigation----------------------------*/
+
+
+
+/*---------------------Main Content-------------------------*/
+/*-------------------------------------*/
+
+/*-------------Title-----------------*/
+
+
+main .title
+{
+    background: url(../images/background2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+main .title .background
+{
+    padding-top: 300px;
+    text-align: center;
+    color: white;
+}
+
+main .title h1,h3
+{
+    margin: 15px;
+}
+
+main .title .btn
+{
+    margin: 10px;
+    background: var(--space);
+    
+   
+}
+
+main .title .btn:hover
+{
+    background: transparent;
+    
+}
+/*-------------Title----------------*/
+
+/*-------------Carousel----------------*/
+main .blog
+{
+    background: url("../images/carousel.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    width: 100%;
+}
+/*-------------Carousel----------------*/
+
+
+/*-------------------Viewport for 750px--------------------*/
+@media only screen and (max-width: 750px)
+{
+    .nav .nav-menu, .nav .list
+    {
+       flex-direction: column;
+    }
+    .nav .toggle-collapse
+    {
+        display: initial;
+    }
+}
+/*-------------------Viewport for 750px--------------------*/
