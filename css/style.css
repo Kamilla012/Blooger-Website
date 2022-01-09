@@ -54,7 +54,12 @@ h1
     font-family: Poppins;
     font-size: 60px;
 }
-
+h2
+{
+    color: white;
+    font-size: 40px;
+    font-family: Luxurious_Roman;
+}
 h3
 {
     font-family: Pushster;
@@ -384,7 +389,7 @@ main .site-content .post-content > .post-image .post-info
     padding: 20px;
     position: absolute;
     bottom: 0%;
-    left: 550px;
+    left: 35%;
     border-radius: 30px;
 }
 
@@ -423,7 +428,82 @@ main .site-content .post-content .post-title .post-btn
     border-radius: 0;
 }
 
+.site-content .pagination
+{
+    justify-content: center;
+    margin: 20px 0;
+
+}
+.site-content .pagination i
+{
+    color: white;
+}
+
+.site-content .pagination a
+{
+    padding: 10px;
+    border-radius: 50%;
+    margin: 10px;
+    font-family: Poppins;
+    color:rgb(5, 11, 27);
+}
+
+.site-content .pagination .background-number
+{
+    background: white;
+}
+
 /*-------------side-content----------------*/
+
+/*-------------side-bar------------------------*/
+.sidebar .category h2
+{
+
+    margin-left: 50px;
+   
+}
+.site-content > .sidebar .category-list
+{
+    font-family: Luxurious_Roman;
+
+}
+
+.site-content > .sidebar .category-list .list-items
+{
+    background: var(--space);
+    padding: 20px 10px;
+    margin: 20px 0;
+    border-radius: 30px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-content .sidebar .popular-post h2
+{
+    margin: 65px;
+    padding-top: 200px;
+}
+
+.site-content .sidebar .popular-post .post-content
+{
+    padding: 10px;
+}
+
+.site-content .sidebar .popular-post .post-info
+{
+    padding: 10px 20px !important; 
+    bottom: 0px !important;
+    left: 30px !important;
+    border-radius: 0rem !important;
+    background: rgb(2, 4, 10)!important;
+}
+
+.site-content .sidebar .popular-post .post-title a
+{
+    font-size: 40px;
+}
+/*-------------side-bar------------------------*/
 
 /*-------------------Viewport for 750px--------------------*/
 @media only screen and (max-width: 750px)

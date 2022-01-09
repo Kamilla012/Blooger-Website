@@ -14,3 +14,9 @@
     font-family: Pushster;
     src: url('../fonts/Pushster/Pushster-Regular.ttf');
 }
+
+@font-face
+{
+    font-family: Luxurious_Roman;
+    src: url('../fonts/Luxurious_Roman/LuxuriousRoman-Regular.ttf');
+}
