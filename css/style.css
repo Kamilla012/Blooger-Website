@@ -64,6 +64,12 @@ h3
 {
     font-family: Pushster;
     font-size: 30px;
+    color: white;
+}
+
+span
+{
+    color: white;
 }
 
 button.btn
@@ -482,7 +488,7 @@ main .site-content .post-content .post-title .post-btn
 .site-content .sidebar .popular-post h2
 {
     margin: 65px;
-    padding-top: 200px;
+    padding-top: 60px;
 }
 
 .site-content .sidebar .popular-post .post-content
@@ -502,8 +508,68 @@ main .site-content .post-content .post-title .post-btn
 .site-content .sidebar .popular-post .post-title a
 {
     font-size: 40px;
+    font-family: Luxurious_Roman;
 }
-/*-------------side-bar------------------------*/
+
+
+/*-------------newsletter------------------------*/
+.site-content .sidebar .newsletter
+{
+    padding-top: 30px;
+    margin-left: 60px;
+    margin-bottom: 70px;
+}
+
+.site-content .sidebar .newsletter .form-element
+{
+    padding: 20px 30px;
+}
+
+.site-content .sidebar .newsletter .input-element
+{
+    width: 80%;
+    height: 25px;
+    padding: 15px 20px;
+    font-size: 18px;
+}
+
+.site-content .sidebar .newsletter .form-btn
+{
+    border-radius: 0;
+    padding: 15px 33.6%;
+    margin-top: 30px;
+    background: var(--space);
+    
+}
+
+
+/*-------------newsletter-------------------------*/
+/*-----------------tags---------------------------*/
+
+.site-content .sidebar .popular-tags
+{
+
+    margin-left: 70px;
+    padding: 30px 0;
+}
+
+.site-content .sidebar .popular-tags .tag 
+{
+    background: var(--space);
+    padding: 15px;
+    border-radius: 30px;
+    margin: 8px 10px;
+    display: block;
+    
+
+}
+.site-content .sidebar .popular-tags .tag:hover
+{
+    background: white;
+    color: rgb(5, 11, 27);
+    cursor: pointer;
+}
+/*-----------------tags---------------------------*/
 
 /*-------------------Viewport for 750px--------------------*/
 @media only screen and (max-width: 750px)
