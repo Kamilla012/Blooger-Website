@@ -66,6 +66,10 @@ h3
     font-size: 30px;
     color: white;
 }
+h4
+{
+    color: rgb(5, 11, 27);
+}
 
 span
 {
@@ -570,6 +574,93 @@ main .site-content .post-content .post-title .post-btn
     cursor: pointer;
 }
 /*-----------------tags---------------------------*/
+/*---------------------Main Content-------------------------*/
+
+
+
+
+/*--------------------------Footer-----------------------------*/
+footer.footer
+{
+    height: 100%;
+    background: rgb(255, 255, 255) !important;
+    position: relative;
+
+}
+
+footer.footer .container h3
+{
+    color: rgb(5, 11, 27);
+}
+
+footer.footer .container p
+{
+    color: rgb(5, 11, 27);
+    font-family: Luxurious_Roman;
+    font-size: 20px;
+}
+
+
+footer.footer .container
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+footer.footer .container > div
+{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 40px 40px;
+}
+
+footer.footer .newsletter .form-element
+{
+   display: inline-block;
+}
+
+footer.footer .newsletter .form-element input
+{
+    padding: 10px 20px;
+    border:2px solid rgb(5, 11, 27);
+    font-size: 18px;
+    width: 70%;
+    border-radius: 0;
+}
+footer.footer .newsletter .form-element span
+{
+    background: var(--space);
+    padding: 14px;
+    cursor: pointer;
+}
+
+footer.footer .instagram div > img
+{
+    display: inline-block;
+    width: 30%;
+    margin: 5px;    
+}
+footer.footer .follow div i
+{
+    padding-right: 30px;
+}
+
+.footer.footer .copy a
+{
+    color: rgb(5, 11, 27);
+}
+.footer.footer .copy
+{
+    justify-content: center;
+    font-family: Luxurious_Roman;
+    padding: 2px;
+}
+
+/*--------------------------Footer-----------------------------*/
+
+
+
+
 
 /*-------------------Viewport for 750px--------------------*/
 @media only screen and (max-width: 750px)
