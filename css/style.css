@@ -115,8 +115,7 @@ hr
     padding: 0 25px;
     height: 0;
     min-height: 80px;
-    overflow-x: hidden;
-    transition:height 1s ease-out;
+  
     background:var(--text-purple);
     
 }
@@ -166,6 +165,7 @@ hr
     font-size: 20px;
     position: relative;
     font-family: Poppins;
+    transition: 1s;
 }
 
 .nav-brand 
@@ -188,12 +188,14 @@ hr
 
 .nav .social
 {
-    padding: 6px 0;
+    padding: 15px 0;
+    font-size: 25px;
 }
 
 .nav .social i
 {
     padding: 10px;
+    transition: 0.5s;
 }
 
 .nav .social i:hover
@@ -297,13 +299,13 @@ main .title .btn
 {
     margin: 10px;
     background: var(--space);
-    
-   
+    transition: 2s;
 }
 
 main .title .btn:hover
 {
-    background: transparent;
+    background: var(--light-purple);
+    color: white;
     
 }
 /*-------------Title----------------*/
@@ -332,9 +334,13 @@ main .blog-post .blog-content{
     margin: 3rem 2rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
     background-color: rgb(4, 3, 12);
+    transition: all 1s ease;   
+   
+}
 
-   
-   
+main .blog-post .blog-content:hover
+{
+    transform: scale(1.2);
 }
 
 main .blog-post .blog-content img
@@ -351,6 +357,12 @@ main .blog-content .btn-blog{
     padding: .7rem 2rem;
     background: var(--space);
     margin: .5rem;
+    transition: 0.5s ease-in;
+}
+
+main .blog-content .btn-blog:hover
+{
+    background: var(--light-purple);
 }
 
 main .blog-content span{
@@ -436,7 +448,14 @@ main .site-content .post-content .post-title .post-btn
     background: var(--space);
     border: none;
     border-radius: 0;
+    transition: 2s;
 }
+
+main .site-content .post-content .post-title .post-btn:hover
+{
+    background: var(--light-purple);
+}
+
 
 .site-content .pagination
 {
@@ -487,6 +506,12 @@ main .site-content .post-content .post-title .post-btn
     width: 70%;
     display: flex;
     justify-content: space-between;
+    transition: 1s;
+}
+
+.site-content > .sidebar .category-list .list-items:hover
+{
+    background: var(--light-purple);
 }
 
 .site-content .sidebar .popular-post h2
@@ -543,9 +568,14 @@ main .site-content .post-content .post-title .post-btn
     padding: 15px 33.6%;
     margin-top: 30px;
     background: var(--space);
+    transition: 1s;
     
 }
 
+.site-content .sidebar .newsletter .form-btn:hover
+{
+    background: var(--light-purple);
+}
 
 /*-------------newsletter-------------------------*/
 /*-----------------tags---------------------------*/
