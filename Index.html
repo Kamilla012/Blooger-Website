@@ -27,12 +27,6 @@
             </div>
 
 
-            <div class="toggle-collapse">
-                <div class="toggle-icons">
-                   
-                </div>
-            </div>
-
                 <div class="nav-bar">
                     <ul class="list">
                         <li class="item-list"><a href="#">Home</a></li>
@@ -79,52 +73,27 @@
 
     <!-----------------------------Carousel------------------------------>
     <section>
-        <div class="blog">
-            <div class="conatiner">
-                <h1>The Most Interesting Articles</h1>
-                <div class="owl-carousel owl-thema blog-post">
-                    <div class="blog-content">
-                        <img src="images/carousel/astronaut.jpg" alt="post-1">
-                        <div class="blog-title">
-                            <h3>Astronomers</h3>
-                        <button class="btn btn-blog">Read more</button>
-                            <span>2 minutes</span>
-
-                        </div>
-                    </div>
-                    
-                    <div class="blog-content">
-                        <img src="images/carousel/moon.jpg" alt="post-2">
-                        <div class="blog-title">
-                            <h3>Moon</h3>
-                            <button class="btn btn-blog">Read more</button>
-                            <span>2 minutes</span>
-
-                        </div>
-                    </div>
-
-                    <div class="blog-content">
-                        <img src="images/carousel/solor-system.jpg" alt="post-3">
-                        <div class="blog-title">
-                            <h3>Solar-system</h3>
-                            <button class="btn btn-blog">Read more</button>
-                            <span>2 minutes</span>
-
-                        </div>
-                    </div>
-
-                    <div class="blog-content">
-                        <img src="images/carousel/star.jpg" alt="post-4">
-                        <div class="blog-title">
-                            <h3>Stars&constelation</h3>
-                            <button class="btn btn-blog">Read more</button>
-                            <span>2 minutes</span>
-
-                        </div>
-                    </div>
-                </div>
+        <div id="slider">
+            <div id="top-row">
+              <div class="arrow arrow-left" id="arrow-left" alt=""><i class="fas fa-chevron-left"></i></div>
+              
+              <div id="slides-container">
+                <img class="slide active" src="./images/carousel/astronaut1.jpg"/>
+                <img class="slide" src="./images/carousel/moon.jpg" />
+                <img class="slide" src="./images/carousel/solor-system.jpg" />
+              </div>
+    
+              <div class="arrow arrow-right" id="arrow-right"><i class="fas fa-chevron-right"></i></div>
             </div>
-        </div>
+            <div id="bottom-row">
+              <div id="dots">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+              </div>
+            </div>
+          </div> 
+    
     </section>
     <!-----------------------------Carousel------------------------------>
     <!-----------------------------Content------------------------------>
@@ -391,7 +360,8 @@
                 <h3>Newsletter</h3>
                 <p>Stay with us on a regular basis</p>
                 <div class="form-element">
-                    <input type="text" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span>
+                    <input type="text" placeholder="Email">
+                    <span><i class="fas fa-chevron-right"></i></span>
                 </div>
             </div>
             
