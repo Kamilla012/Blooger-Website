@@ -1,32 +1,11 @@
-/*
-let myFirstFunction = (name, greeting) => {
-    console.log(greeting + '! mam na imię' + ' ' + name);
-};
-myFirstFunction('Kacper', 'Hej');
-myFirstFunction('Jan', 'Witam');
-*/
-
-/* Napisz funkcję, która przemnoży liczbę przekazaną w parametrze przez dwa
- i wypisze wynik na konsolę. */
-
- let mathematicalFunction1 = (number) => {
-     console.log(number*2);
- };
-
- mathematicalFunction1(5);
-
- /* Napisz funkcję, która przemnoży liczbę przekazaną w
-  parametrze przez dowolną liczbę, przekazaną w kolejnym parametrze.*/
-
-let mathematicalFunction2 = (number1, number2) => {
-    console.log(number1*number2);
+let circleLenght = (radious) => {
+    console.log(2*radious*3.14);
 };
 
-mathematicalFunction2(2, 3);
-
-/*Napisz funkcję, która podniesie liczbę przekazaną w parametrze do potęgi drugiej*/
-let mathematicalFunction3 = (number3) => {
-    console.log(number3*number3)
-};
-
-mathematicalFunction3(8);
+/* wpisujemy trzy rzeczy 
+1) to stan początkowy pętli
+2) to warunek który mówi pętli czy nadal powinna dokonywać dame jej zadanie 
+3) kod koncowy który wykona się za każdym razem gdy petla wykona już swoje zadanie */
+for(let i = 1; i <= 20; i++) {
+    circleLenght(i);
+} 
